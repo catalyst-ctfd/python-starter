@@ -1,2 +1,2 @@
-# Spring Boot starter 
-This is a Spring Boot starter application which exposes / endpoint and returns "Hello World"
+# Python starter 
+This is a Python starter application which exposes / endpoint and returns "Hello World"
