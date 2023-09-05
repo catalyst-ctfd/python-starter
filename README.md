@@ -1,5 +1,2 @@
-:linkattrs:
-
-= Python Starter Hello World Application
-
-It exposes / endpoint which returns "Hello World" response
+# Spring Boot starter 
+This is a Spring Boot starter application which exposes / endpoint and returns "Hello World"
