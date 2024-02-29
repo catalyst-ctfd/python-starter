@@ -1,4 +1,5 @@
-from flask import Flask, base64
+import base64
+from flask import Flask
 
 app = Flask(__name__)
 
