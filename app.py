@@ -9,10 +9,10 @@ def hello():
     hello = "SEVMTE9fV09STEQ="
     aloha = "QUxPSEFfR1JFRVRJTkc="
     if 'aloha' in hostname:
-        aloha_byte = base64.b64decode(encoded_string)
+        aloha_byte = base64.b64decode(aloha)
         return aloha_byte.decode('utf-8')
     else: 
-        hello_byte = base64.b64decode(encoded_string)
+        hello_byte = base64.b64decode(hello)
         return hello_byte.decode('utf-8')
 
 app.run(host="0.0.0.0", port=8080)
